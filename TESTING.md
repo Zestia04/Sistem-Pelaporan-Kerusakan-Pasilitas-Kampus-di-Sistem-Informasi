@@ -1,7 +1,7 @@
 # Dokumentasi Pengujian Sistem
 
 ## A. Skenario Positif (Positive Test Cases)
-[cite_start]Pengujian untuk seluruh alur utama web sesuai prosedur yang benar[cite: 1, 2].
+[cite_start]Pengujian untuk seluruh alur utama web pelaporan kerusakan fasilitas sesuai prosedur yang benar[cite: 1, 2].
 
 | ID Test Case | Modul | Deskripsi Pengujian | Langkah-langkah & Input | Hasil yang Diharapkan |
 | :--- | :--- | :--- | :--- | :--- |
