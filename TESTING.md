@@ -41,3 +41,6 @@
 | TC-WEB-EDG-05 | Autentikasi | Session Timeout | [cite_start]Idle 30 menit 1 detik[cite: 9]. | [cite_start]Sesi expired[cite: 9]. |
 | TC-WEB-EDG-06 | Pelaporan | Batas judul | [cite_start]Input tepat 255 karakter[cite: 9]. | [cite_start]Disimpan, tidak terpotong[cite: 9]. |
 |.
+.|
+tes
+coba
