@@ -9,7 +9,7 @@ Menguji seluruh alur utama web saat pengguna (User maupun Admin) menggunakan sis
 
 | ID Test Case | Modul | Skenario Pengujian | Hasil yang Diharapkan | Gambar Bukti |
 | :--- | :--- | :--- | :--- | :--- |
-| TC-WEB-POS-01 | Autentikasi | Login sebagai User (Mahasiswa/Dosen) | Sesi dibuat, masuk ke Dashboard User. | ![Bukti TC-POS-01]![Bukti 1](./public/img/login.png) ![Bukti 2](./public/img/dasboard-user.png) |
+| TC-WEB-POS-01 | Autentikasi | Login sebagai User (Mahasiswa/Dosen) | Sesi dibuat, masuk ke Dashboard User. | ![Bukti 1](./public/img/login.png) ![Bukti 2](./public/img/dasboard-user.png) |
 | TC-WEB-POS-02 | Pelaporan | Mengirim laporan kerusakan | Laporan tersimpan, status Pending. | ![Bukti TC-POS-02](./public/img/laporan.png) |
 | TC-WEB-POS-03 | Tracking | Memantau riwayat & status | Menampilkan laporan dengan status sesuai. | ![Bukti TC-POS-03](./public/img/traking.png) |
 | TC-WEB-POS-04 | Admin | Verifikasi dan atur prioritas | Status & prioritas ter-update di database. | ![Bukti TC-POS-04](./public/img/cari.png) |
@@ -43,7 +43,6 @@ Pengujian nilai batas untuk memastikan tidak ada *bug* pada limit parameter sist
 
 | ID Test Case | Modul | Skenario Pengujian | Hasil yang Diharapkan | Gambar Bukti |
 | :--- | :--- | :--- | :--- | :--- |
-
 | TC-WEB-EDG-01 | Pelaporan | Batas minimal deskripsi (50 char) | Lolos validasi & berhasil dikirim. | ![Bukti TC-EDG-01](./public/img/riwayat-user.png) |
 | TC-WEB-EDG-02 | Pelaporan | Kurang dari batas minimal (49 char) | Sistem menolak pengiriman kembali ke form pelaporan kosong. | ![Bukti TC-EDG-02](./public/img/laporan.png) |
 | TC-WEB-EDG-03 | Pelaporan | Batas maksimal ukuran foto (2 MB) | Upload sukses (response < 5 detik). | ![Bukti TC-EDG-03](./public/img/riwayat-user.png) |
